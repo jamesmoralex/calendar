@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			daysContainer.appendChild(dayDiv);
 		}
 
+
 		// Next month's days
 		const nextMonthStartDay = 7 - (firstDay + lastDay) % 7;
 		for (let i = 1; i <= nextMonthStartDay && nextMonthStartDay < 7; i++) {
@@ -50,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			dayDiv.classList.add('fade');
 			daysContainer.appendChild(dayDiv);
 		}
+		
 	}
 	prevButton.addEventListener('click', function(){
 		currentDate.setMonth(currentDate.getMonth() - 1);
