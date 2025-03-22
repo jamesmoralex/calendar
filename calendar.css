@@ -65,3 +65,8 @@ body{
 	border-radius: 20px;
 
 }
+.sunday-bg {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
