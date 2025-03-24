@@ -6,6 +6,8 @@ body{
 	margin: 0;
 	background-color: #333333 ;
 	background-image: url(wuwa.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .calendar {
 	background-color: #111111;
